@@ -22,7 +22,7 @@ console.log(body);
 
 const butn=document.createElement("button");
 butn.classList.add("button");
-butn.innerText="click here to see well"
+butn.innerText="click here to see well and if you need to cover your page click on me again"
 body.insertBefore(butn,body.children[0]);
 
 const video=document.getElementById("video");
@@ -35,7 +35,7 @@ butn.addEventListener("click",e=>{
 
 const song=document.getElementById("song");
 song.addEventListener("click",e=>{
-    e.target.innerText="HAPPIEST BIRTHDAY BEST FRIEND YOU ARE SO IMPORTANT let's GOD continue to lead the steps of your legs";
+    e.target.innerText="HAPPIEST BIRTHDAY MY LOVE YOU ARE SO IMPORTANT let's GOD continue to lead the steps of your life";
     e.target.style.backgroundColor="black";
     e.target.style.color="white";
     video.classList.toggle("myVideo");

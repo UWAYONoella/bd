@@ -27,9 +27,18 @@ body{
 }
 button{
     position: fixed;
+    margin-top: -10px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    height: 30px;
 }
 #song{
+    color: white;
+    background-color: blue;
     position: fixed;
+    height: 80px;
+    border-radius: 50%;
   margin-left: 500px; 
   margin-right: 100px;
    /* margin-top: 100px; */
@@ -38,7 +47,8 @@ button{
 .righ{
     transform: translatex(-150%); 
     transition:transform 3s ease-in-out;
-    background-color: rgba(39, 242, 239, 0.4);  
+    background-color: rgba(39, 242, 239, 0.4); 
+  
 }
 .down{
     transform: translatey(-150%); 
@@ -50,7 +60,7 @@ button{
     margin-top: 10px;
     width: 100%;
     position: fixed; 
-    background-color: rgba(128, 128, 128,0.4);
+    background-color: rgba(209, 181, 54, 0.4);
     transition:transform 3s ease-in-out;
 }
 
@@ -59,7 +69,15 @@ button{
     margin-top: 20px;
     width: 100%;
     position: fixed; 
-    background-color: rgba(152, 246, 244, 0.4);
+    background-color: rgba(55, 214, 95, 0.4);
     transition:transform 3s ease-in-out;
 
+}
+.footer{
+    border-radius: 10%;
+    border: 2px solid blue;
+    padding-left: 150px;
+    background-color: black;
+    margin-top: 40px;
+    height: 300px;
 }
